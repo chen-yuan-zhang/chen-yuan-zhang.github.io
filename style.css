@@ -381,31 +381,29 @@ img { max-width: 100%; display: block; }
   text-decoration: none;
 }
 .pub-toggle-btn {
-  font-size: 0.78rem;
-  font-weight: 500;
+  font-size: 0.75rem;
+  font-weight: 600;
   font-family: inherit;
-  padding: 2px 10px;
-  border: 1px solid var(--color-accent);
+  padding: 3px 12px;
+  border: none;
   border-radius: 4px;
-  color: var(--color-accent);
-  background: var(--color-accent-light);
+  color: #fff;
+  background: #4b6fa5;
   cursor: pointer;
-  transition: background 0.12s, color 0.12s;
+  transition: opacity 0.12s;
+  vertical-align: middle;
 }
 .pub-toggle-btn::after {
   content: ' ▾';
-  font-size: 0.7em;
+}
+.pub-toggle-btn.active {
+  background: var(--color-accent);
 }
 .pub-toggle-btn.active::after {
   content: ' ▴';
 }
 .pub-toggle-btn:hover {
-  background: var(--color-accent);
-  color: #fff;
-}
-.pub-toggle-btn.active {
-  background: var(--color-accent);
-  color: #fff;
+  opacity: 0.82;
 }
 .pub-collapse {
   margin-top: 10px;
@@ -435,6 +433,16 @@ img { max-width: 100%; display: block; }
   transition: opacity 0.12s;
 }
 .pub-copy-btn:hover { opacity: 0.82; }
+.pub-role {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #6b7280;
+  background: #f3f4f6;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-left: 4px;
+  white-space: nowrap;
+}
 
 /* ============================================================
    TEACHING
