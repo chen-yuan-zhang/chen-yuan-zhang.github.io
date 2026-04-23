@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chenyuan Zhang</title>
+  <meta name="description" content="Chenyuan Zhang – Research Fellow at Monash University working on human-AI interaction, goal recognition, and neuro-symbolic AI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+       - To add/remove nav links, edit the <ul> below
+  ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#about">Chenyuan Zhang</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#awards">Awards</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       ABOUT / PROFILE
+       - Update name, position, institution, bio, and social links
+       - Replace assets/photo.jpg with your headshot
+  ============================================================ -->
+  <section id="about" class="section profile-section">
+    <div class="container">
+      <div class="profile-grid">
+
+        <!-- Profile Photo -->
+        <div class="profile-photo-wrap">
+          <!-- Replace assets/photo.jpg with your own photo -->
+          <img
+            src="assets/photo.jpg"
+            alt="Chenyuan Zhang"
+            class="profile-photo"
+            id="profile-img"
+            onerror="document.getElementById('profile-img').style.display='none'; document.getElementById('profile-initials').style.display='flex';"
+          />
+          <!-- Shown if photo is missing -->
+          <div class="profile-initials" id="profile-initials">CZ</div>
+        </div>
+
+        <!-- Bio Info -->
+        <div class="profile-info">
+          <h1 class="profile-name">Chenyuan Zhang <span class="degree-tag">PhD</span></h1>
+          <p class="profile-position">Research Fellow (Level B)</p>
+          <p class="profile-institution">Monash University, Australia</p>
+
+          <!-- UPDATE: Edit this paragraph to change your bio -->
+          <p class="profile-bio">
+            I work on leveraging human modeling to enhance the performance and
+            explainability of AI systems in the context of human–AI interaction.
+            My research spans automated planning, computational cognitive modeling,
+            and neuro-symbolic AI. Previously, I was a PhD student at the
+            University of Melbourne, supervised by
+            <a href="https://nir.lipovetzky.net/" target="_blank">Associate Professor Nir Lipovetzky</a>
+            and <a href="https://charleskemp.com/" target="_blank">Professor Charles Kemp</a>.
+          </p>
+
+          <!-- Social / Contact Links
+               UPDATE: Replace "#" placeholders with real URLs -->
+          <div class="social-links">
+            <a href="mailto:zcy9217@gmail.com" class="btn">Email</a>
+            <a href="https://github.com/chen-yuan-zhang" class="btn" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/chenyuan-zhang-0097751a4/" class="btn" target="_blank">LinkedIn</a>
+            <!-- UPDATE: Replace with your Google Scholar URL -->
+            <a href="#" class="btn">Google Scholar</a>
+            <!-- UPDATE: Replace assets/cv.pdf with your CV file -->
+            <a href="assets/cv.pdf" class="btn" target="_blank">CV</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       NEWS
+       - Add new items at the top of the list
+       - Format: <li><span class="news-date">YEAR</span> Text here</li>
+  ============================================================ -->
+  <section id="news" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">News</h2>
+      <ul class="news-list">
+        <li>
+          <span class="news-date">2025</span>
+          Paper accepted at <strong>KR 2025</strong>:
+          <em>Probabilistic Active Goal Recognition</em>
+        </li>
+        <li>
+          <span class="news-date">2025</span>
+          Paper accepted at <strong>CogSci 2025</strong>:
+          <em>Modeling Human Sequential Decision-Making in the Tower of London</em>
+        </li>
+        <li>
+          <span class="news-date">2025</span>
+          Paper accepted at <strong>CHI 2025</strong> (Extended Abstracts):
+          <em>Modeling Higher-Order Human Beliefs Using the Justified Perspective Model</em>
+        </li>
+        <li>
+          <span class="news-date">2025</span>
+          Paper accepted at <strong>IEEE Robotics and Automation Letters</strong>:
+          <em>NEUSIS: A Compositional Neuro-Symbolic Framework for Autonomous Perception, Reasoning, and Planning</em>
+        </li>
+        <li>
+          <span class="news-date">2024</span>
+          Received the <strong>Pragnesh Jay Modi Best Paper Award</strong> at AAMAS 2024!
+        </li>
+        <li>
+          <span class="news-date">2024</span>
+          Started as <strong>Research Fellow (Level B)</strong> at Monash University, working on
+          "Hierarchical Abstractions and Reasoning for Neuro-Symbolic Systems."
+        </li>
+        <li>
+          <span class="news-date">2023</span>
+          Paper accepted at <strong>ICAPS 2023</strong>:
+          <em>Goal Recognition With Timing Information</em>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PUBLICATIONS
+       - Each paper is a <div class="pub-item"> block
+       - Add class "pub-award" to highlight award-winning papers
+       - Fields: pub-title, pub-authors, pub-venue, pub-links
+       - In pub-authors, wrap your name in <strong>
+  ============================================================ -->
+  <section id="publications" class="section">
+    <div class="container">
+      <h2 class="section-title">Publications</h2>
+
+      <!-- 2025 -->
+      <div class="pub-year-group">
+        <div class="pub-year">2025</div>
+        <div class="pub-list">
+
+          <div class="pub-item">
+            <div class="pub-title">
+              Probabilistic Active Goal Recognition
+            </div>
+            <div class="pub-authors">
+              <strong>Chenyuan Zhang</strong>, Cristian Rojas Cardenas,
+              Hamid Rezatofighi, Mor Vered, Buser Say
+            </div>
+            <div class="pub-venue">
+              International Conference on Principles of Knowledge Representation and Reasoning
+              <span class="pub-conf-tag">KR 2025</span>
+            </div>
+            <!-- UPDATE: Add links to paper PDF, code, etc. -->
+            <div class="pub-links">
+              <!-- <a href="#">PDF</a> <a href="#">Code</a> -->
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-title">
+              Modeling Human Sequential Decision-Making in the Tower of London:
+              Incorporating Individual Differences and Timing-Based Replanning Inference
+            </div>
+            <div class="pub-authors">
+              <strong>Chenyuan Zhang</strong>, Yuansan Liu, Dana Kuli&#263;,
+              Pamela Carreno-Medrano, Michael Burke
+            </div>
+            <div class="pub-venue">
+              47th Annual Meeting of the Cognitive Science Society
+              <span class="pub-conf-tag">CogSci 2025</span>
+            </div>
+            <div class="pub-links"></div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-title">
+              Modeling Higher-Order Human Beliefs Using the Justified Perspective Model
+            </div>
+            <div class="pub-authors">
+              Wanchun Li, <strong>Chenyuan Zhang</strong>, Weijia Li, Guang Hu, Yangmengfei Xu
+            </div>
+            <div class="pub-venue">
+              CHI Conference on Human Factors in Computing Systems – Extended Abstracts
+              <span class="pub-conf-tag">CHI 2025</span>
+            </div>
+            <div class="pub-links"></div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-title">
+              NEUSIS: A Compositional Neuro-Symbolic Framework for Autonomous Perception,
+              Reasoning, and Planning in Complex UAV Search Missions
+            </div>
+            <div class="pub-authors">
+              Zhixi Cai, Cristian Rojas Cardenas, Kevin Leo,
+              <strong>Chenyuan Zhang</strong>, et al.
+            </div>
+            <div class="pub-venue">
+              IEEE Robotics and Automation Letters
+              <span class="pub-conf-tag">RA-L 2025</span>
+            </div>
+            <div class="pub-links"></div>
+          </div>
+
+        </div>
+      </div><!-- /2025 -->
+
+      <!-- 2024 -->
+      <div class="pub-year-group">
+        <div class="pub-year">2024</div>
+        <div class="pub-list">
+
+          <div class="pub-item pub-award">
+            <div class="pub-title">
+              Human Goal Recognition as Bayesian Inference: Investigating the Impact
+              of Actions, Timing, and Goal Solvability
+            </div>
+            <div class="pub-authors">
+              <strong>Chenyuan Zhang</strong>, Charles Kemp, Nir Lipovetzky
+            </div>
+            <div class="pub-venue">
+              23rd International Conference on Autonomous Agents and Multiagent Systems
+              <span class="pub-conf-tag">AAMAS 2024</span>
+            </div>
+            <div class="pub-award-label">Pragnesh Jay Modi Best Paper Award</div>
+            <div class="pub-links">
+              <a href="https://ojs.aaai.org/index.php/ICAPS/article/view/27224" target="_blank">Paper</a>
+            </div>
+          </div>
+
+        </div>
+      </div><!-- /2024 -->
+
+      <!-- 2023 -->
+      <div class="pub-year-group">
+        <div class="pub-year">2023</div>
+        <div class="pub-list">
+
+          <div class="pub-item">
+            <div class="pub-title">
+              Goal Recognition With Timing Information
+            </div>
+            <div class="pub-authors">
+              <strong>Chenyuan Zhang</strong>, Charles Kemp, Nir Lipovetzky
+            </div>
+            <div class="pub-venue">
+              33rd International Conference on Automated Planning and Scheduling
+              <span class="pub-conf-tag">ICAPS 2023</span>
+            </div>
+            <div class="pub-links">
+              <a href="https://ojs.aaai.org/index.php/ICAPS/article/view/27224" target="_blank">Paper</a>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-title">
+              Comparing AI Planning Algorithms With Humans on the Tower of London Task
+            </div>
+            <div class="pub-authors">
+              <strong>Chenyuan Zhang</strong>, Nir Lipovetzky, Charles Kemp
+            </div>
+            <div class="pub-venue">
+              45th Annual Meeting of the Cognitive Science Society
+              <span class="pub-conf-tag">CogSci 2023</span>
+            </div>
+            <div class="pub-links"></div>
+          </div>
+
+        </div>
+      </div><!-- /2023 -->
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TEACHING
+       - Update course list and date range as needed
+  ============================================================ -->
+  <section id="teaching" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Teaching</h2>
+      <p class="section-subtitle">Teaching Assistant / Instructor at University of Melbourne (2020–2024)</p>
+      <ul class="teaching-list">
+        <li>AI Planning for Autonomy</li>
+        <li>Machine Learning</li>
+        <li>Algorithms and Complexity</li>
+        <li>Artificial Intelligence</li>
+        <li>Models of Computation</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       AWARDS & HONORS
+       - Format: <li><span class="award-year">YEAR</span> Description</li>
+  ============================================================ -->
+  <section id="awards" class="section">
+    <div class="container">
+      <h2 class="section-title">Awards &amp; Honors</h2>
+      <ul class="awards-list">
+        <li>
+          <span class="award-year">2024</span>
+          Pragnesh Jay Modi Best Paper Award, AAMAS
+        </li>
+        <li>
+          <span class="award-year">2023</span>
+          Melbourne School of Engineering Travelling Scholarship
+        </li>
+        <li>
+          <span class="award-year">2023</span>
+          Engineering and IT Conference Travel Scholarship
+        </li>
+        <li>
+          <span class="award-year">2020–2023</span>
+          Melbourne Research Scholarship
+        </li>
+        <li>
+          <span class="award-year">2018, 2019</span>
+          Dean's Honours List, University of Melbourne
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       - Update year and email as needed
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        &copy; 2025 Chenyuan Zhang &nbsp;&middot;&nbsp;
+        <a href="mailto:zcy9217@gmail.com">zcy9217@gmail.com</a>
+        &nbsp;&middot;&nbsp; Monash University, Australia
+      </p>
+    </div>
+  </footer>
+
+  <!-- Mobile nav toggle script -->
+  <script>
+    const toggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+    // Close menu on link click (mobile)
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+    // Highlight active nav on scroll
+    const sections = document.querySelectorAll('section[id]');
+    const links = navLinks.querySelectorAll('a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 80) current = s.id;
+      });
+      links.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    });
+  </script>
+
+</body>
+</html>
