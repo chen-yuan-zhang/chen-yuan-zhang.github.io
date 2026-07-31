@@ -241,7 +241,39 @@
             <div class="pub-title">A Probabilistic Framework for Hierarchical Goal Recognition</div>
             <div class="pub-venue">23rd International Conference on Principles of Knowledge Representation and Reasoning <span class="pub-conf-tag">KR 2026</span> <span class="pub-conf-tag">CORE A*</span></div>
             <div class="pub-authors"><strong>Chenyuan Zhang</strong>, Katherine Ip, Hamid Rezatofighi, Buser Say, Mor Vered <span class="pub-role">1st author</span></div>
-            <div class="pub-links"></div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2604.22256" target="_blank">arXiv</a>
+              <button class="pub-toggle-btn" data-type="abstract">Abstract</button>
+            </div>
+            <div class="pub-collapse pub-abstract-content" hidden>
+              Goal recognition aims to infer an agent's goal from observations of its behaviour. In realistic settings, recognition can benefit from exploiting hierarchical task structure and reasoning under uncertainty. Planning-based goal recognition has made substantial progress over the past decade, but to the best of our knowledge no existing approach jointly integrates hierarchical task structure with probabilistic inference. In this paper, we introduce the first planning-based probabilistic framework for hierarchical goal recognition over Hierarchical Task Networks (HTNs). We instantiate the framework by exploiting an HTN planner with a three-stage generative model for likelihood estimation, yielding posterior distributions over goal hypotheses. Empirical results show improved recognition performance over the existing HTN-based recognizer on HTN benchmarks. Overall, the framework lays a foundation for probabilistic goal recognition grounded in hierarchical planning structure, moving goal recognition toward more practical settings.
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-title">What We Talk About When We Talk About LLM Planning: Evidence for Two Distinct Planning Abilities</div>
+            <div class="pub-venue">arXiv preprint <span class="pub-conf-tag">Preprint</span> <span class="pub-conf-tag">arXiv:2607.11197</span></div>
+            <div class="pub-authors">Sukai Huang, <strong>Chenyuan Zhang</strong>, Fucai Ke, Zhixi Cai, Naim Rastgoo, Gholamreza Haffari, Hamid Rezatofighi <span class="pub-role">2nd author</span></div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2607.11197" target="_blank">arXiv</a>
+              <button class="pub-toggle-btn" data-type="abstract">Abstract</button>
+            </div>
+            <div class="pub-collapse pub-abstract-content" hidden>
+              When LLMs exhibit uneven performance across planning tasks, these gaps are often attributed to task difficulty. We argue that this explanation is incomplete, as task-level variation may reflect distinct latent planning competencies rather than differences along a single ability spectrum. We study this question on ACPBench-Hard by evaluating multiple LLM families under varying test-time reasoning budgets and applying a multidimensional item response theory model to uncover the latent competency structure underlying LLM planning. The analysis reveals two principal dimensions that shape planning performance: operational reasoning, the ability to evaluate local action applicability and immediate state transitions, and structural enumeration, the ability to reason about goal reachability and landmark structure. Operational reasoning improving under model scaling and longer reasoning traces, while structural enumeration remains comparatively insensitive. Our findings motivate competency-level evaluation of LLM planning, shifting the focus from whether models improve overall to which planning competencies improve, under what conditions, and why.
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-title">Mini-BEHAVIOR-Gran: Revealing U-Shaped Effects of Instruction Granularity on Language-Guided Embodied Agents</div>
+            <div class="pub-venue">arXiv preprint <span class="pub-conf-tag">Preprint</span> <span class="pub-conf-tag">arXiv:2604.17019</span></div>
+            <div class="pub-authors">Sukai Huang, <strong>Chenyuan Zhang</strong>, Fucai Ke, Zhixi Cai, Gholamreza Haffari, Lizhen Qu, Hamid Rezatofighi <span class="pub-role">2nd author</span></div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2604.17019" target="_blank">arXiv</a>
+              <button class="pub-toggle-btn" data-type="abstract">Abstract</button>
+            </div>
+            <div class="pub-collapse pub-abstract-content" hidden>
+              Instruction granularity is an important yet poorly controlled variable in language-guided embodied AI. Existing benchmarks typically pair each task with a single static instruction, making it difficult to study how agent behavior changes when the same task is described at different levels of detail. We introduce Mini-BEHAVIOR-Gran, a new benchmark for controlled studies of instruction granularity that extends Mini-BEHAVIOR with multiple instruction variants per task, ranging from high-level goal descriptions to step-by-step guidance. Using this benchmark, we compare four candidate metrics for cross-task granularity quantification: token count, entity count, action-verb count, and planning-width, and find that width correlates most consistently with agent performance. Using width to organize training and evaluation further reveals a non-monotonic U-shaped relationship between instruction granularity and performance, with peaks at both fine and coarse extremes. Further analysis suggests that the coarse-granularity performance rebound is associated with shallow grounding, where agents learn vision-dominant policies.
+            </div>
           </div>
 
         </div>
@@ -279,7 +311,6 @@
 
           <div class="pub-item">
             <div class="pub-title">Modeling Human Sequential Decision-Making in the Tower of London: Incorporating Individual Differences and Timing-Based Replanning Inference</div>
-            <div class="pub-authors"><strong>Chenyuan Zhang</strong>, Yuansan Liu, Dana Kuli&#263;, Pamela Carreno-Medrano, Michael Burke</div>
             <div class="pub-venue">47th Annual Meeting of the Cognitive Science Society <span class="pub-conf-tag">CogSci 2025</span> <span class="pub-conf-tag">CORE B</span></div>
             <div class="pub-authors"><strong>Chenyuan Zhang</strong>, Yuansan Liu, Dana Kuli&#263;, Pamela Carreno-Medrano, Michael Burke <span class="pub-role">1st author</span></div>
             <div class="pub-links">
@@ -303,7 +334,6 @@
 
           <div class="pub-item">
             <div class="pub-title">Modeling Higher-Order Human Beliefs Using the Justified Perspective Model</div>
-            <div class="pub-authors">Wanchun Li, <strong>Chenyuan Zhang</strong>, Weijia Li, Guang Hu, Yangmengfei Xu</div>
             <div class="pub-venue">CHI Conference on Human Factors in Computing Systems – Extended Abstracts <span class="pub-conf-tag">CHI 2025</span> <span class="pub-conf-tag">CORE A*</span></div>
             <div class="pub-authors">Wanchun Li, <strong>Chenyuan Zhang</strong>, Weijia Li, Guang Hu, Yangmengfei Xu <span class="pub-role">2nd author</span></div>
             <div class="pub-links">
@@ -328,7 +358,6 @@
 
           <div class="pub-item">
             <div class="pub-title">NEUSIS: A Compositional Neuro-Symbolic Framework for Autonomous Perception, Reasoning, and Planning in Complex UAV Search Missions</div>
-            <div class="pub-authors">Zhixi Cai, Cristian Rojas Cardenas, Kevin Leo, <strong>Chenyuan Zhang</strong>, et al.</div>
             <div class="pub-venue">IEEE Robotics and Automation Letters <span class="pub-conf-tag">RA-L 2025</span> <span class="pub-conf-tag">Q1 Journal</span></div>
             <div class="pub-authors">Zhixi Cai, Cristian Rojas Cardenas, Kevin Leo, <strong>Chenyuan Zhang</strong>, et al. <span class="pub-role">co-1st author</span></div>
             <div class="pub-links">
@@ -398,7 +427,6 @@
 
           <div class="pub-item">
             <div class="pub-title">Goal Recognition With Timing Information</div>
-            <div class="pub-authors"><strong>Chenyuan Zhang</strong>, Charles Kemp, Nir Lipovetzky</div>
             <div class="pub-venue">33rd International Conference on Automated Planning and Scheduling <span class="pub-conf-tag">ICAPS 2023</span> <span class="pub-conf-tag">CORE A*</span></div>
             <div class="pub-authors"><strong>Chenyuan Zhang</strong>, Charles Kemp, Nir Lipovetzky <span class="pub-role">1st author</span></div>
             <div class="pub-links">
@@ -426,7 +454,6 @@
 
           <div class="pub-item">
             <div class="pub-title">Comparing AI Planning Algorithms With Humans on the Tower of London Task</div>
-            <div class="pub-authors"><strong>Chenyuan Zhang</strong>, Nir Lipovetzky, Charles Kemp</div>
             <div class="pub-venue">45th Annual Meeting of the Cognitive Science Society <span class="pub-conf-tag">CogSci 2023</span> <span class="pub-conf-tag">CORE A</span></div>
             <div class="pub-authors"><strong>Chenyuan Zhang</strong>, Nir Lipovetzky, Charles Kemp <span class="pub-role">1st author</span></div>
             <div class="pub-links">
@@ -448,8 +475,112 @@
             </div>
           </div>
 
+          <div class="pub-item">
+            <div class="pub-title">Planning and Goal Recognition in Humans and Machines</div>
+            <div class="pub-venue">Doctoral thesis, School of Computing and Information Systems, University of Melbourne <span class="pub-conf-tag">PhD Thesis</span></div>
+            <div class="pub-authors"><strong>Chenyuan Zhang</strong></div>
+            <div class="pub-links"></div>
+          </div>
+
         </div>
       </div><!-- /2023 -->
+
+      <!-- 2018 -->
+      <div class="pub-year-group">
+        <div class="pub-year">2018</div>
+        <div class="pub-list">
+
+          <div class="pub-item">
+            <div class="pub-title">Improving Motivation Through Real-Time fMRI-Based Self-Regulation of the Nucleus Accumbens</div>
+            <div class="pub-venue">Neuropsychology, 32(6), 764&ndash;776 <span class="pub-conf-tag">Journal</span></div>
+            <div class="pub-authors">Zhi Li, <strong>Chen-Yuan Zhang</strong>, Jia Huang, Yi Wang, Chao Yan, Ke Li, Ya-Wei Zeng, Zhen Jin, Eric F. C. Cheung, Li Su, Raymond C. K. Chan <span class="pub-role">2nd author</span></div>
+            <div class="pub-links">
+              <a href="https://doi.org/10.1037/neu0000425" target="_blank">Paper</a>
+              <button class="pub-toggle-btn" data-type="abstract">Abstract</button>
+              <button class="pub-toggle-btn" data-type="bibtex">BibTeX</button>
+            </div>
+            <div class="pub-collapse pub-abstract-content" hidden>
+              <strong>Objective:</strong> Impaired nucleus accumbens (NAcc) activation is associated with amotivation and anhedonia, which are resistant to treatment with antipsychotics and antidepressants in schizophrenia. This study trained healthy participants to self-regulate NAcc activation using real-time fMRI neurofeedback. <strong>Method:</strong> An experimental group (N = 19) receiving NAcc feedback was compared with a control group (N = 5) receiving sham feedback from the posterior parahippocampal gyrus; participants used mental strategies to regulate NAcc activation in a 3T MRI scanner. <strong>Results:</strong> Seventy-four percent of the experimental group successfully learned to self-regulate the NAcc. These participants showed improved behavioral performance in motivation and decreased functional connectivity between the NAcc and the ventral medial prefrontal cortex, together with increased small-world properties in the reward circuit, suggesting enhanced information integration. The sham control group and participants who failed to self-regulate showed no such improvements. <strong>Conclusions:</strong> The NAcc could be self-regulated using real-time fMRI neurofeedback and can result in improved motivation in cognitive tasks, with baseline motivation influencing success in self-regulation training.
+            </div>
+            <div class="pub-collapse pub-bibtex-content" hidden>
+              <pre class="pub-bibtex-code">@article{li2018improving,
+  title   = {Improving Motivation Through Real-Time fMRI-Based Self-Regulation of the Nucleus Accumbens},
+  author  = {Li, Zhi and Zhang, Chen-Yuan and Huang, Jia and Wang, Yi and Yan, Chao and Li, Ke and Zeng, Ya-Wei and Jin, Zhen and Cheung, Eric F. C. and Su, Li and Chan, Raymond C. K.},
+  journal = {Neuropsychology},
+  volume  = {32},
+  number  = {6},
+  pages   = {764--776},
+  year    = {2018},
+  doi     = {10.1037/neu0000425}
+}</pre>
+              <button class="pub-copy-btn">Copy</button>
+            </div>
+          </div>
+
+        </div>
+      </div><!-- /2018 -->
+
+      <!-- 2016 -->
+      <div class="pub-year-group">
+        <div class="pub-year">2016</div>
+        <div class="pub-list">
+
+          <div class="pub-item">
+            <div class="pub-title">Structural Neural Correlates of Multitasking: A Voxel-Based Morphometry Study</div>
+            <div class="pub-venue">PsyCh Journal, 5(4), 219&ndash;227 <span class="pub-conf-tag">Journal</span></div>
+            <div class="pub-authors">Rui-Ting Zhang, Tian-Xiao Yang, Yi Wang, Yuxiu Sui, Jingjing Yao, <strong>Chen-Yuan Zhang</strong>, Eric F. C. Cheung, Raymond C. K. Chan <span class="pub-role">co-author</span></div>
+            <div class="pub-links">
+              <a href="https://doi.org/10.1002/pchj.137" target="_blank">Paper</a>
+              <button class="pub-toggle-btn" data-type="abstract">Abstract</button>
+              <button class="pub-toggle-btn" data-type="bibtex">BibTeX</button>
+            </div>
+            <div class="pub-collapse pub-abstract-content" hidden>
+              Multitasking refers to the ability to organize assorted tasks efficiently in a short period of time, which plays an important role in daily life. However, the structural neural correlates of multitasking performance remain unclear. The present study aimed at exploring the brain regions associated with multitasking performance using global correlation analysis. Twenty-six healthy participants first underwent structural brain scans and then performed the modified Six Element Test, which required participants to attempt six subtasks in 10 min while obeying a specific rule. Voxel-based morphometry of the whole brain was used to detect the structural correlates of multitasking ability. Grey matter volume of the anterior cingulate cortex (ACC) was positively correlated with the overall performance and time monitoring in multitasking. In addition, white matter volume of the anterior thalamic radiation (ATR) was also positively correlated with time monitoring during multitasking. Other related brain regions associated with multitasking included the superior frontal gyrus, the inferior occipital gyrus, the lingual gyrus, and the inferior longitudinal fasciculus. No significant correlation was found between grey matter volume of the prefrontal cortex (Brodmann Area 10) and multitasking performance. Using a global correlation analysis to examine various aspects of multitasking performance, this study provided new insights into the structural neural correlates of multitasking ability. In particular, the ACC was identified as an important brain region that played both a general and a specific time-monitoring role in multitasking, extending the role of the ACC from lesioned populations to healthy populations. The present findings also support the view that the ATR may influence multitasking performance by affecting time-monitoring abilities.
+            </div>
+            <div class="pub-collapse pub-bibtex-content" hidden>
+              <pre class="pub-bibtex-code">@article{zhang2016structural,
+  title   = {Structural Neural Correlates of Multitasking: A Voxel-Based Morphometry Study},
+  author  = {Zhang, Rui-Ting and Yang, Tian-Xiao and Wang, Yi and Sui, Yuxiu and Yao, Jingjing and Zhang, Chen-Yuan and Cheung, Eric F. C. and Chan, Raymond C. K.},
+  journal = {PsyCh Journal},
+  volume  = {5},
+  number  = {4},
+  pages   = {219--227},
+  year    = {2016},
+  doi     = {10.1002/pchj.137}
+}</pre>
+              <button class="pub-copy-btn">Copy</button>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-title">A Trend Toward Smaller Optical Angles and Medial-Ocular Distance in Schizophrenia Spectrum, but Not in Bipolar and Major Depressive Disorders</div>
+            <div class="pub-venue">PsyCh Journal, 5(4), 228&ndash;237 <span class="pub-conf-tag">Journal</span></div>
+            <div class="pub-authors">Yi Wang, Yi Deng, Zhi Li, Xu Li, <strong>Chen-Yuan Zhang</strong>, Zhen Jin, Ming-Xia Fan, Michael T. Compton, Eric F. C. Cheung, Kelvin O. Lim, Raymond C. K. Chan <span class="pub-role">co-author</span></div>
+            <div class="pub-links">
+              <a href="https://doi.org/10.1002/pchj.138" target="_blank">Paper</a>
+              <button class="pub-toggle-btn" data-type="abstract">Abstract</button>
+              <button class="pub-toggle-btn" data-type="bibtex">BibTeX</button>
+            </div>
+            <div class="pub-collapse pub-abstract-content" hidden>
+              Minor physical anomalies (MPAs) are subtle signs of fetal developmental abnormalities that have been considered to be among the most replicated risk markers for schizophrenia-spectrum disorders. However, quantitative approaches are needed to measure craniofacial MPAs. The present study adopted an imaging-based quantitative approach to examine craniofacial MPAs across the spectrum of schizophrenia and affective disorders, to address their sensitivity and specificity. We sampled 31 patients with schizophrenia, 30 of their unaffected relatives, and 30 individuals with schizotypal personality traits, as well as 37 non-schizotypal controls. We also examined 17 patients with bipolar disorder and 19 patients with major depressive disorder. Five craniofacial MPAs were measured on anterior-posterior commissure-aligned T1-weighted images of an individual's native brain space: medial-ocular distance, lateral-ocular distance, optical angle, maximum skull length, and skull-base width. Compared to non-schizotypal controls, patients with schizophrenia and their relatives showed a trend toward having smaller optical angles and medial-ocular distance, while no difference was found in patients with bipolar or major depressive disorders, suggesting some degree of specificity to schizophrenia. Our approach may benefit future research on craniofacial MPAs as risk markers for schizophrenia-spectrum disorders, and may eventually be useful in strategies to enhance risk stratification using multiple risk markers.
+            </div>
+            <div class="pub-collapse pub-bibtex-content" hidden>
+              <pre class="pub-bibtex-code">@article{wang2016trend,
+  title   = {A Trend Toward Smaller Optical Angles and Medial-Ocular Distance in Schizophrenia Spectrum, but Not in Bipolar and Major Depressive Disorders},
+  author  = {Wang, Yi and Deng, Yi and Li, Zhi and Li, Xu and Zhang, Chen-Yuan and Jin, Zhen and Fan, Ming-Xia and Compton, Michael T. and Cheung, Eric F. C. and Lim, Kelvin O. and Chan, Raymond C. K.},
+  journal = {PsyCh Journal},
+  volume  = {5},
+  number  = {4},
+  pages   = {228--237},
+  year    = {2016},
+  doi     = {10.1002/pchj.138}
+}</pre>
+              <button class="pub-copy-btn">Copy</button>
+            </div>
+          </div>
+
+        </div>
+      </div><!-- /2016 -->
 
     </div>
   </section>
@@ -462,7 +593,7 @@
     <div class="container">
       <h2 class="section-title">Teaching</h2>
 
-      <p class="teaching-group-title">Monash University <span>2025–present</span></p>
+      <p class="teaching-group-title">Monash University <span>2026–present</span></p>
       <ul class="teaching-list">
         <li><span class="teaching-code">FIT5047</span> Fundamentals of Artificial Intelligence</li>
       </ul>
