@@ -80,7 +80,7 @@
             I aim to build AI systems that are better <strong>aligned with human values and needs</strong>,
             while also being more <strong>interpretable and explainable</strong>. My work has been
             published in leading venues including
-            <strong>ICAPS, AAMAS, KR, CHI, CogSci</strong>, and
+            <strong>ICAPS, AAMAS, KR, EMNLP, CHI, CogSci</strong>, and
             <strong>IEEE Robotics and Automation Letters</strong>, and I actively contribute to
             the research community through conference organisation and reviewing, including service
             for ICAPS, CogSci, IJCAI, ICRA, KR, and Robotics and Autonomous Systems.
@@ -112,6 +112,12 @@
     <div class="container">
       <h2 class="section-title">News</h2>
       <ul class="news-list">
+        <li>
+          <span class="news-date">Aug. 2026</span>
+          <div class="news-body">
+            Our paper <em>Mini-BEHAVIOR-Gran: Revealing U-Shaped Effects of Instruction Granularity on Language-Guided Embodied Agents</em> has been accepted at <strong>EMNLP 2026</strong> — the Conference on Empirical Methods in Natural Language Processing. We introduce a benchmark for controlled studies of instruction granularity and show a non-monotonic U-shaped relationship between how finely a task is described and how well language-guided embodied agents perform.
+          </div>
+        </li>
         <li>
           <span class="news-date">May 2026</span>
           <div class="news-body">
@@ -256,6 +262,19 @@
           </div>
 
           <div class="pub-item">
+            <div class="pub-title">Mini-BEHAVIOR-Gran: Revealing U-Shaped Effects of Instruction Granularity on Language-Guided Embodied Agents</div>
+            <div class="pub-venue">Conference on Empirical Methods in Natural Language Processing <span class="pub-conf-tag">EMNLP 2026</span> <span class="pub-conf-tag">CORE A*</span></div>
+            <div class="pub-authors">Sukai Huang, <strong>Chenyuan Zhang</strong>, Fucai Ke, Zhixi Cai, Gholamreza Haffari, Lizhen Qu, Hamid Rezatofighi <span class="pub-role">2nd author</span></div>
+            <div class="pub-links">
+              <a href="https://arxiv.org/abs/2604.17019" target="_blank">arXiv</a>
+              <button class="pub-toggle-btn" data-type="abstract">Abstract</button>
+            </div>
+            <div class="pub-collapse pub-abstract-content" hidden>
+              Instruction granularity is an important yet poorly controlled variable in language-guided embodied AI. Existing benchmarks typically pair each task with a single static instruction, making it difficult to study how agent behavior changes when the same task is described at different levels of detail. We introduce Mini-BEHAVIOR-Gran, a new benchmark for controlled studies of instruction granularity that extends Mini-BEHAVIOR with multiple instruction variants per task, ranging from high-level goal descriptions to step-by-step guidance. Using this benchmark, we compare four candidate metrics for cross-task granularity quantification: token count, entity count, action-verb count, and planning-width, and find that width correlates most consistently with agent performance. Using width to organize training and evaluation further reveals a non-monotonic U-shaped relationship between instruction granularity and performance, with peaks at both fine and coarse extremes. Further analysis suggests that the coarse-granularity performance rebound is associated with shallow grounding, where agents learn vision-dominant policies.
+            </div>
+          </div>
+
+          <div class="pub-item">
             <div class="pub-title">What We Talk About When We Talk About LLM Planning: Evidence for Two Distinct Planning Abilities</div>
             <div class="pub-venue">arXiv preprint <span class="pub-conf-tag">Preprint</span> <span class="pub-conf-tag">arXiv:2607.11197</span></div>
             <div class="pub-authors">Sukai Huang, <strong>Chenyuan Zhang</strong>, Fucai Ke, Zhixi Cai, Naim Rastgoo, Gholamreza Haffari, Hamid Rezatofighi <span class="pub-role">2nd author</span></div>
@@ -265,19 +284,6 @@
             </div>
             <div class="pub-collapse pub-abstract-content" hidden>
               When LLMs exhibit uneven performance across planning tasks, these gaps are often attributed to task difficulty. We argue that this explanation is incomplete, as task-level variation may reflect distinct latent planning competencies rather than differences along a single ability spectrum. We study this question on ACPBench-Hard by evaluating multiple LLM families under varying test-time reasoning budgets and applying a multidimensional item response theory model to uncover the latent competency structure underlying LLM planning. The analysis reveals two principal dimensions that shape planning performance: operational reasoning, the ability to evaluate local action applicability and immediate state transitions, and structural enumeration, the ability to reason about goal reachability and landmark structure. Operational reasoning improving under model scaling and longer reasoning traces, while structural enumeration remains comparatively insensitive. Our findings motivate competency-level evaluation of LLM planning, shifting the focus from whether models improve overall to which planning competencies improve, under what conditions, and why.
-            </div>
-          </div>
-
-          <div class="pub-item">
-            <div class="pub-title">Mini-BEHAVIOR-Gran: Revealing U-Shaped Effects of Instruction Granularity on Language-Guided Embodied Agents</div>
-            <div class="pub-venue">arXiv preprint <span class="pub-conf-tag">Preprint</span> <span class="pub-conf-tag">arXiv:2604.17019</span></div>
-            <div class="pub-authors">Sukai Huang, <strong>Chenyuan Zhang</strong>, Fucai Ke, Zhixi Cai, Gholamreza Haffari, Lizhen Qu, Hamid Rezatofighi <span class="pub-role">2nd author</span></div>
-            <div class="pub-links">
-              <a href="https://arxiv.org/abs/2604.17019" target="_blank">arXiv</a>
-              <button class="pub-toggle-btn" data-type="abstract">Abstract</button>
-            </div>
-            <div class="pub-collapse pub-abstract-content" hidden>
-              Instruction granularity is an important yet poorly controlled variable in language-guided embodied AI. Existing benchmarks typically pair each task with a single static instruction, making it difficult to study how agent behavior changes when the same task is described at different levels of detail. We introduce Mini-BEHAVIOR-Gran, a new benchmark for controlled studies of instruction granularity that extends Mini-BEHAVIOR with multiple instruction variants per task, ranging from high-level goal descriptions to step-by-step guidance. Using this benchmark, we compare four candidate metrics for cross-task granularity quantification: token count, entity count, action-verb count, and planning-width, and find that width correlates most consistently with agent performance. Using width to organize training and evaluation further reveals a non-monotonic U-shaped relationship between instruction granularity and performance, with peaks at both fine and coarse extremes. Further analysis suggests that the coarse-granularity performance rebound is associated with shallow grounding, where agents learn vision-dominant policies.
             </div>
           </div>
 
