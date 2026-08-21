@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=4" />
 </head>
 <body>
 
@@ -27,6 +27,7 @@
         <li><a href="#news">News</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#opportunities">Opportunities</a></li>
       </ul>
     </div>
   </nav>
@@ -112,6 +113,12 @@
     <div class="container">
       <h2 class="section-title">News</h2>
       <ul class="news-list">
+        <li>
+          <span class="news-date">Aug. 2026</span>
+          <div class="news-body">
+            I am advertising a <strong>paid summer research project</strong>, <em>Active Verification of Action Theories from Informal Specifications</em>, on using active learning to choose the most informative test cases for verifying and refining LLM-generated PDDL domains. Applications close <strong>28 August 2026</strong> — see <a href="#opportunities">Opportunities</a> for the full description and how to apply.
+          </div>
+        </li>
         <li>
           <span class="news-date">Aug. 2026</span>
           <div class="news-body">
@@ -659,6 +666,12 @@
     <div class="container">
       <h2 class="section-title">Teaching</h2>
 
+      <p class="teaching-group-title">Guest Lectures <span>2026</span></p>
+      <ul class="teaching-list">
+        <li><span class="teaching-code">COMP90054</span> AI Planning for Autonomy<span class="teaching-inst">University of Melbourne</span></li>
+        <li><span class="teaching-code">FIT5222</span> Planning and Automated Reasoning<span class="teaching-inst">Monash University</span></li>
+      </ul>
+
       <p class="teaching-group-title">Monash University <span>2026–present</span></p>
       <ul class="teaching-list">
         <li><span class="teaching-code">FIT5047</span> Fundamentals of Artificial Intelligence</li>
@@ -672,6 +685,46 @@
         <li><span class="teaching-code">COMP30024</span> Artificial Intelligence</li>
         <li><span class="teaching-code">COMP30026</span> Models of Computation</li>
       </ul>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       OPPORTUNITIES
+       - Remove this section, or the .opp-item inside it, once the
+         advertised project has closed
+  ============================================================ -->
+  <section id="opportunities" class="section">
+    <div class="container">
+      <h2 class="section-title">Opportunities</h2>
+
+      <div class="opp-item">
+        <div class="opp-status">Open — applications close 28 August 2026</div>
+        <h3 class="opp-title">Paid Summer Research Project: PDDL Domain Generation with LLMs and SAT-Based Verification</h3>
+        <p class="opp-body">
+          Large Language Models (LLMs) can generate PDDL action theories from informal specifications, but the generated domains may contain missing preconditions, incorrect effects, or unnecessary actions.
+        </p>
+        <p class="opp-body">
+          In the recent paper <em>Extracting Verified Action Theories from Informal Specifications via Explanation-Guided Refinement</em>, the authors use a predefined set of solvable and unsolvable planning tasks to test an LLM-generated action theory, and use SAT-based verification to identify errors and guide the LLM towards a refined theory.
+        </p>
+        <p class="opp-body">
+          The goal of this project is to introduce an <strong>active-learning approach to test-case selection</strong>. We will investigate how to automatically select the most informative planning tasks for testing and refining an LLM-generated PDDL domain, which could make the verification and refinement process more efficient and effective.
+        </p>
+        <p class="opp-body">
+          The project will involve PDDL, Large Language Models, active learning, and SAT-based verification. It is particularly suitable for students who have taken COMP90054 AI Planning for Autonomy and have experience with LLMs.
+        </p>
+
+        <dl class="opp-meta">
+          <div><dt>Project</dt><dd>4033 — Active Verification of Action Theories from Informal Specifications</dd></div>
+          <div><dt>Opportunity</dt><dd>Paid summer research project</dd></div>
+          <div><dt>Prerequisite</dt><dd>COMP90054 AI Planning for Autonomy. Experience developing or deploying LLM-based systems is preferred.</dd></div>
+          <div><dt>Deadline</dt><dd><span class="opp-deadline">28 August 2026</span></dd></div>
+          <div><dt>Contact</dt><dd><a href="mailto:chenyuan.zhang@monash.edu">chenyuan.zhang@monash.edu</a> — please include your up-to-date CV and transcript.</dd></div>
+        </dl>
+
+        <div class="opp-links">
+          <a href="https://www.monash.edu/study/fees-scholarships/scholarships/summer-winter/view?area=1-Faculty%20of%20Information%20Technology" target="_blank" class="btn">Apply via Monash Summer Research Scholarship</a>
+        </div>
+      </div>
     </div>
   </section>
 
